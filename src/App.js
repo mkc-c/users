@@ -6,13 +6,13 @@ import UserList from "./UserList";
 function App() {
   const [users, setUsers] = useState([]);
 
-  const onUsersAdd = (user) => {
+  const onUserAdd = (user) => {
     setUsers([...users, user]);
   };
 
   return (
     <div>
-      <UserForm onUsersAdd={onUsersAdd} />
+      <UserForm onUsersAdd={onUserAdd} />
       <hr />
       <UserList users={users} />
     </div>
