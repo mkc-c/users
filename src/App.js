@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div>
-      <UserForm onUsersAdd={onUserAdd} />
+      <UserForm onUserAdd={onUserAdd} />
       <hr />
       <UserList users={users} />
     </div>
