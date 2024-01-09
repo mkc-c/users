@@ -33,3 +33,5 @@ test("it calls onUserAdd when the form is submitted", () => {
   expect(mock).toHaveBeenCalled();
   expect(mock).toHaveBeenCalledWith({ name: "jane", email: "jane@jane.com" });
 });
+
+test("empties the two inputs when form is submitted", () => {});
